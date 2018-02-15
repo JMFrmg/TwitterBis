@@ -1,0 +1,12 @@
+<h1>Créer un nouveau tweet</h1>
+<p> </p>
+<%= form_tag (tweets_send_path) do %>
+
+ 
+    
+  <%= label_tag 'text', 'Tweet :' %>
+  <%= text_field_tag 'content' %>
+  <%= submit_tag 'Créer un nouveau ragot' %>
+<% end %>
+
+
