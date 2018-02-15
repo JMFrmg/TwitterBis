@@ -42,7 +42,7 @@ gem 'bootswatch'
 gem 'devise'
 gem 'twitter'
 #gem 'sqlite3'
-#gem 'pg', '0.20.0'
+gem 'pg', '0.20.0'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -55,7 +55,7 @@ group :development, :test do
   gem 'guard-rspec', require: false
   gem 'factory_bot_rails'
   gem 'selenium-webdriver'
-  gem 'sqlite3'
+#  gem 'sqlite3'
 end
 
 group :development do
@@ -69,7 +69,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg', '0.20.0'
+#  gem 'pg', '0.20.0'
 
 end 
 
