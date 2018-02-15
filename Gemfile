@@ -41,8 +41,9 @@ gem 'bootstrap'
 gem 'bootswatch'
 gem 'devise'
 gem 'twitter'
-#gem 'sqlite3'
-gem 'pg', '0.20.0'
+gem 'sqlite3'
+gem 'dotenv'
+#gem 'pg', '0.20.0'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
