@@ -1,24 +1,9 @@
-# README
+# Bienvenue sur mon script TwitterBis!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Cette application permet d'envoyer un ou plusieurs tweets dont le contenu est précisé par l'utilisateur.
+ 
+Le lien heroku a été posté sur le site THP, mais il est aussi possible de la tester en local. Il faut créer un fichier .env à la racine du dossier et renseigner le contenu des clés d'API twitter. Les noms de variables utilisées pour les clés sont disponibles dans le fichier '/app/services/send_tweet.rb'.
 
-Things you may want to cover:
+Il est possible de vérifier sur le site twitter que les tweets ont bien été envoyés sur mon compte. Mon pseudo twitter est : 'MatthieuClb'.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Bonne lecture !
